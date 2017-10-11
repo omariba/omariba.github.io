@@ -5,7 +5,7 @@
  */
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 p {
   line-height: 1.75; }
@@ -22,8 +22,8 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-transform: uppercase; }
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
 
 section {
   padding: 100px 0; }
@@ -37,7 +37,7 @@ section {
     font-style: italic;
     margin-bottom: 75px;
     text-transform: none;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 @media (min-width: 768px) {
   section {
@@ -125,7 +125,8 @@ header.masthead {
   background-size: cover; }
   header.masthead .intro-text {
     padding-top: 150px;
-    padding-bottom: 100px; }
+    padding-bottom: 100px;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 22px;
       font-style: italic;
@@ -598,3 +599,14 @@ ul.social-buttons {
   .btn-xl .badge {
     color: #fed136;
     background-color: white; }
+
+
+.intro-divider {
+  width: 400px;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 1);  
+}
+
+.intro-divider {
+    width: 100%;
+ }
