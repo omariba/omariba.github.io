@@ -1,0 +1,109 @@
+/*--------------------------------------------------------------------------
+
+[Theme Color Stylesheet]
+
+Project     :   ColorHost - Responsive HTML5 Web Hosting and WHMCS Template
+Version     :   2.2
+Author      :   themelooks
+Author URL  :   https://themeforest.net/user/themelooks
+
+--------------------------------------------------------------------------*/
+
+
+/*--------------------------------
+   COLOR PROPERTY
+--------------------------------*/
+.btn--default.hover:hover,
+a.btn--default.hover:hover,
+#header a.navbar-brand h1 span,
+.page-header--breadcrumb ul > li.active,
+.page-header--breadcrumb ul > li > a:hover,
+.pricing--popular-tag,
+.pricing--body h3 strong,
+.service--item:hover .service--icon,
+.service--item:hover .service--content h3,
+.team--item:hover .team--name a,
+.team--social-links ul li a:hover,
+.team--social-links ul li a:focus,
+.post--title h2 a:hover,
+.post--meta a:hover,
+.post--except-footer a:hover,
+.post--full-content-footer ul li a:hover,
+.post--comment-meta a:hover,
+.post--comment-meta a:focus,
+.blog--recent-posts-widget ul li h4 a:hover,
+.blog--recent-posts-widget ul li h4 a:focus,
+.blog--links-widget ul li a:hover,
+.blog--tags-widget ul li a:hover,
+.blog--tags-widget ul li a:focus,
+.vps-pricing--slider .ui-slider-handle i.fa,
+.vps-pricing--feature i.fa,
+.footer--widget ul li a:hover,
+.fw--about a.more,
+.footer--copyright a {
+    color: #ff5252;
+}
+
+
+/*--------------------------------
+   BACKGROUND COLOR PROPERTY
+--------------------------------*/
+.section--title h2:before,
+.page-header--title h2:before,
+.btn--primary,
+a.btn--primary,
+.bg--vermilion,
+#preloader,
+#header .navbar-toggle .icon-bar,
+#headerNav .nav > .dropdown > .dropdown-menu > li > a:hover,
+#headerNav .nav > .dropdown > .dropdown-menu > li > a:focus,
+#headerNav .nav > .dropdown > .dropdown-menu > li.active > a,
+.banner--slider-nav ul > li:hover,
+.banner--slider-nav ul > li.active,
+.pricing--item.popular,
+.features--item.dot:before,
+.features--item.dot:after,
+.counter--num:before,
+.faq--content .accordion .panel-heading a,
+.faq--categories h3:before,
+.faq--categories ul li a:hover,
+.faq--categories ul li.active a,
+.vps-pricing--slider .ui-slider-handle em,
+.login--form .form-group .highlight,
+.f0f--search-bar .highlight,
+.post--comments-title h3:before,
+.post--comment-form-title h3:before,
+.post--comment-form-group .input--text .highlight,
+.blog-widget--title h3:before,
+.blog--search-widget .input--text .highlight,
+.contact--form .highlight,
+.footer--widget h4:before {
+    background-color: #ff5252;
+}
+
+
+/*--------------------------------
+   BORDER COLOR PROPERTY
+--------------------------------*/
+.btn--default.hover:hover,
+a.btn--default.hover:hover,
+.btn--primary,
+a.btn--primary,
+#header .navbar-toggle,
+.banner--slider-nav ul > li:hover,
+.banner--slider-nav ul > li.active,
+.pricing--item.popular,
+.service--item:hover .service--icon,
+.blog--links-widget ul li a:hover,
+.fw--links li a:hover {
+    border-color: #ff5252;
+}
+
+.banner--slider-nav ul > li:after,
+.vps-pricing--slider .ui-slider-handle:before {
+    border-top-color: #ff5252;
+}
+
+.banner--slider-nav ul > li:before {
+    border-bottom-color: #ff5252;
+}
