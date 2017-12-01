@@ -369,3 +369,8 @@ WE MAY RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE. IT'S BETTER AND SA
         padding-right: 30px;
     }
 }
+
+.nav-custom{
+    width: 10px;
+    color: red;
+}

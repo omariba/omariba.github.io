@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     
-    <title>ColorHost - Responsive HTML5 Web Hosting and WHMCS Template</title>
+    <title>Pitt</title>
     
     <meta name="description" content="">
     <meta name="author" content="">
@@ -77,7 +77,7 @@
                         
                         <!-- Header Logo Start -->
                         <a href="index.html" class="navbar-brand">
-                            <h1><span><i class="fa fm fa-server"></i>COLOR</span>HOST</h1>
+                            <img src="img/logo_transparent.png" alt="Logo" height="50px">
                         </a>
                         <!-- Header Logo End -->
                     </div>
@@ -90,7 +90,7 @@
                     <!-- Header Nav Start -->
                     <div id="headerNav" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="index.html">HOME</a></li>
+                            <li class="active"><a href="index.html">HOME</a></li>
                             <li class="dropdown">
                                 <a href="hosting.html" class="dropdown-toggle" role="button">HOSTING<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
@@ -101,15 +101,15 @@
                                 </ul>
                             </li>
                             <li><a href="domain.html">DOMAIN</a></li>
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">PAGES<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="about.html">ABOUT</a></li>
                                     <li><a href="faq.html">FAQ</a></li>
                                     <li><a href="testimonial.html">TESTIMONIAL</a></li>
-                                    <li class="active"><a href="login.html">LOGIN</a></li>
+                                    <li><a href="login.html">LOGIN</a></li>
                                     <li><a href="affiliate.html">AFFILIATE</a></li>
-                                    <li><a href="404.html">404</a></li>
+                                    <!-- <li><a href="404.html">404</a></li> -->
                                 </ul>
                             </li>
                             <li class="dropdown">
@@ -129,54 +129,97 @@
         </header>
         <!-- Header Area End -->
         
-        <!-- Page Header Area Start -->
-        <div id="pageHeader" class="bg--overlay" data-bg-img="img/page-header-img/bg.png">
-            <div class="container">
-                <!-- Page Title Start -->
-                <div class="page-header--title">
-                    <h2>LOGIN PAGE</h2>
+        <!-- Banner Area Start -->
+        <div id="banner" class="bg--overlay" data-bg-img="img/banner-img/bg.png">
+            <!-- Banner Slider Start -->
+            <div class="banner--slider BannerSlider" data-owl-autoplay="true">
+                <!-- Banner Item Start -->
+                <div class="banner--item" data-owl-id="sharedSlider">
+                    <div class="vc-parent">
+                        <div class="vc-child">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-offset-2">
+                                        <!-- Banner Content Start -->
+                                        <div class="banner--content">
+                                            <h2>SHARED HOSTING</h2>
+                                            <h3>Get your website hosted instantly with our reliable Linux hosting packages</h3>
+
+                                            <a href="#" class="btn--default hover">VIEW DETAILS</a>
+                                        </div>
+                                        <!-- Banner Item End -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <!-- Page Title End -->
+                <!-- Banner Item End -->
                 
-                <!-- Page Breadcrumb Start -->
-                <div class="page-header--breadcrumb">
-                    <ul class="breadcrumb">
-                        <li><a href="index.html">HOME</a></li>
-                        <li class="active">LOGIN</li>
+                <!-- Banner Item Start -->
+                <div class="banner--item" data-owl-id="vpsSlider">
+                    <div class="vc-parent">
+                        <div class="vc-child">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-offset-2">
+                                        <!-- Banner Content Start -->
+                                        <div class="banner--content">
+                                            <h2>DEDICATED HOSTING</h2>
+                                            <h3>Get your money's worth with our responsive website designs tailored to the needs of your blog or business.</h3>
+
+                                            <a href="#" class="btn--default hover">VIEW DETAILS</a>
+                                        </div>
+                                        <!-- Banner Item End -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Banner Item End -->
+                
+                <!-- Banner Item Start -->
+                <div class="banner--item" data-owl-id="dedicatedSlider">
+                    <div class="vc-parent">
+                        <div class="vc-child">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-offset-2">
+                                        <!-- Banner Content Start -->
+                                        <div class="banner--content">
+                                            <h2>VPS HOSTING</h2>
+                                            <h3>Let us handle your Social Media, Content Creation, SEO and Email marketing to place you at the top.</h3>
+
+                                            <a href="#" class="btn--default hover">VIEW DETAILS</a>
+                                        </div>
+                                        <!-- Banner Item End -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Banner Item End -->
+
+            </div>
+            <!-- Banner Slider End -->
+            
+            <!-- Banner Slider Nav Start -->
+            <div class="banner--slider-nav">
+                <div class="container">
+                    <ul class="nav">
+                        <li data-owl-target="sharedSlider">Shared Hosting</li>
+                        <li data-owl-target="dedicatedSlider">Dedicated Hosting</li>
+                        <li data-owl-target="vpsSlider">VPS Hosting</li>
                     </ul>
                 </div>
-                <!-- Page Breadcrumb End -->
             </div>
+            <!-- Banner Slider Nav End -->
         </div>
-        <!-- Page Header Area End -->
-        
-        <!-- Login Area Start -->
-        <div id="login" class="bg--lightgrey">
-            <div class="container">
-                <div class="login--form">
-                    <!-- Login Form Start -->
-                    <form action="http://pitt.co.ke/whmcs_installation/dologin.php" method="post">
-                        <div class="form-group">
-                            <label for="loginEmail">EMAIL ADDRESS *</label>
-                            <input type="email" name="username" class="form-control" id="loginEmail" placeholder="EMAIL">
-                            <span class="highlight"></span>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="loginPassword">PASSWORD *</label>
-                            <input type="password" name="password" class="form-control" id="loginPassword" placeholder="PASSWORD">
-                            <span class="highlight"></span>
-                        </div>
+        <!-- Banner Area End -->
+              
 
-                        <button type="submit" class="btn--default hover">LOGIN</button>
-                        <a href="http://billing.ywhmcs.com/pwreset.php?systpl=ColorHost01" class="btn--default hover">FORGET PASSWORD ?</a>
-                    </form>
-                   <!-- Login Form End -->
-                </div>
-            </div>
-        </div>
-        <!-- Login Area End -->
-        
         <!-- Footer Area Start -->
         <footer id="footer">
             <!-- Footer Widgets Start -->
@@ -187,7 +230,8 @@
                         <div class="col-md-6 footer--widget fw--about">
                             <h4>ABOUT US</h4>
                             
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quod mollitia quisquam. Architecto quam in atque sint voluptatem, consequatur consectetur ab ipsum maxime quod consequuntur excepturi illum dolorem ex modi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur animi id ex perspiciatis distinctio sequi minima...</p>
+                            <p>Pitt is a family of web enthusiasts who will work countless hours to ensure you get the best web entrepreneurial journey. 
+							   Our team is dedicated to catering to your web creation, market penetration and the continued maintenance of your site...</p>
                             
                             <a href="about.html" class="more">Read More <i class="fa fa-angle-double-right"></i></a>
                             
@@ -235,7 +279,7 @@
             <!-- Footer Copyright Start -->
             <div class="footer--copyright">
                 <div class="container">
-                    <p>Copyright &copy; 2017 <a href="index.html">ColorHost</a>. All Rights Reserved.</p>
+                    <p>Copyright &copy; 2017 <a href="index.html">pitt.co.ke</a>. All Rights Reserved.</p>
                 </div>
             </div>
             <!-- Footer Copyright End -->
