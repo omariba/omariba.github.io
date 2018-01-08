@@ -29,3 +29,7 @@ body {
 #navbar-portfolio{
 	background-color: #303030;
 }
+
+.slider-icons{
+	float: right;
+}
