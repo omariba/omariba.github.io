@@ -21,7 +21,7 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     
     <!-- ==== Bootstrap ==== -->
-    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -67,11 +67,11 @@
                     <!-- Header Navbar Header Start -->
                     <div class="navbar-header">
                         <!-- Header Nav Toggle Button Start -->
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerNav" aria-controls="headerNav">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerNav" aria-expanded="false" aria-controls="navbar">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
                         </button>
                         <!-- Header Nav Toggle Button End -->
                     
@@ -92,10 +92,10 @@
                         <ul class="nav ">
                             <li class="active"><a href="index.html">HOME</a></li>
                             <li class="dropdown">
-                                <a href="index.html#" class="dropdown-toggle" role="button">WEB SERVICES<span class="caret"></span></a>
+                                <a href="index.html#" role="button">WEB SERVICES<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li class="dropdown">
-                                        <a href="shared-hosting.html" class="dropdown-toggle" role="button">HOSTING<span class="caret"></span></a>
+                                        <a href="shared-hosting.html" role="button">HOSTING<span class="caret"></span></a>
                                         <ul class="dropdown-menu">
                                             <li><a href="shared-hosting.html">SHARED HOSTING</a></li>
                                         </ul>
@@ -105,7 +105,7 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">PAGES<span class="caret"></span></a>
+                                <a href="#" data-toggle="dropdown" role="button">PAGES<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="about.html">ABOUT</a></li>
                                     <li><a href="faq.html">FAQ</a></li>
@@ -117,7 +117,7 @@
                             </li>
                             <li><a href="portfolio.html">PORTFOLIO</a></li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">BLOG<span class="caret"></span></a>
+                                <a href="#" data-toggle="dropdown" role="button">BLOG<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="blog.html">BLOG</a></li>
                                     <li><a href="blog-details-left.html">BLOG DETAILS LEFT</a></li>
@@ -127,7 +127,8 @@
                             <li><a href="contact.html">CONTACT</a></li>
 
                             <!-- Header Custom Button Start -->
-                            <a href="login.html" id="login-button" class="header--custom-btn btn--default hover">LOGIN</a>
+                            <!-- <a href="login.html" id="login-button" class="header--custom-btn btn--default hover">LOGIN</a> -->
+                            <a href="login.html" class="header--custom-btn btn--default hover">LOGIN</a>
                             <!-- Header Custom Button End -->
                         </ul>
 
